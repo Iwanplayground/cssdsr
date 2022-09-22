@@ -1,0 +1,100 @@
+h1 {
+  color: gold;
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  line-height: 20px;
+  text-align: justify;
+  text-indent: 20px;
+}
+
+.p1 {
+  color: blue;
+  text-decoration: overline;
+}
+
+p.intro {
+  background-color: aquamarine;
+  color: white;
+  border-radius: 10px;
+  border-style: double;
+}
+
+p.bor {
+  border-left: 8px solid red;
+}
+
+p#lor {
+  background-color: #c6ebc5;
+  border-radius: 6px;
+  border-style: dashed;
+  padding-top: 5px;
+  padding-left: 10px;
+  border-color: #fa7070;
+}
+
+p#lar {
+  color: white;
+  background-color: #4c0033;
+  width: 100%;
+  border: 5px solid #af0171;
+  border-radius: 7px;
+  outline-style: dotted;
+}
+
+div#box {
+  background-color: #cdf0ea;
+  width: 300px;
+  text-align: justify;
+  border: 20px solid red;
+  padding: 20px; /*ini kalo yg didalam border nah klo si margin tdi udah diluarnya*/
+  margin: 50px;
+}
+
+#shad {
+  color: white;
+  text-decoration: solid;
+  text-shadow: 1px 1px 2px #25316d, 0 0 25px blue, 0 0 5px #16213e;
+}
+
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: #fa7070;
+}
+
+/* selected link */
+a:active {
+  color: #faf4b7;
+}
+
+a {
+  border-radius: 10px;
+  border-color: white;
+  background-color: #533483;
+}
+
+ul.a p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: blueviolet;
+}
+
+ol p#b {
+  font-family: serif;
+  font-weight: 35px;
+  font-style: oblique;
+  color: #533483;
+}
